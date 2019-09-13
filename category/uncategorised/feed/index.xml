@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Uncategorised &#8211; ClasesBateriaPinar</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../../../index.html</link>
+	<atom:link href="https://clasesbateria-pinar.cf/category/uncategorised/feed/" rel="self" type="application/rss+xml" />
+	<link>https://clasesbateria-pinar.cf</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 13 Sep 2019 14:44:02 +0000</lastBuildDate>
 	<language>en-GB</language>
@@ -21,18 +21,18 @@
 	<generator>https://wordpress.org/?v=5.2.2</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>./../../../2019/09/13/hello-world/index.html</link>
-				<comments>./../../../2019/09/13/hello-world/index.html#comments</comments>
+		<link>https://clasesbateria-pinar.cf/2019/09/13/hello-world/</link>
+				<comments>https://clasesbateria-pinar.cf/2019/09/13/hello-world/#comments</comments>
 				<pubDate>Fri, 13 Sep 2019 14:44:02 +0000</pubDate>
 		<dc:creator><![CDATA[juan]]></dc:creator>
 				<category><![CDATA[Uncategorised]]></category>
 
-		<guid isPermaLink="false">./../../../index.html?p=1</guid>
+		<guid isPermaLink="false">https://clasesbateria-pinar.cf/?p=1</guid>
 				<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 								<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
-							<wfw:commentRss>./../../../2019/09/13/hello-world/feed/index.html</wfw:commentRss>
+							<wfw:commentRss>https://clasesbateria-pinar.cf/2019/09/13/hello-world/feed/</wfw:commentRss>
 		<slash:comments>1</slash:comments>
 							</item>
 	</channel>
