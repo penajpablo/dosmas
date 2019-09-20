@@ -7,10 +7,10 @@
 	>
 <channel>
 	<title>
-	Comments on: Hello world!	</title>
+	Comentarios en: Hello world!	</title>
 	<atom:link href="https://clasesbateria-pinar.cf/2019/09/13/hello-world/feed/" rel="self" type="application/rss+xml" />
 	<link>https://clasesbateria-pinar.cf/2019/09/13/hello-world/</link>
-	<description>Just another WordPress site</description>
+	<description>Ciudad de la Costa</description>
 	<lastBuildDate>Fri, 13 Sep 2019 14:44:02 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -19,7 +19,7 @@
 	<generator>https://wordpress.org/?v=5.2.2</generator>
 			<item>
 				<title>
-				By: A WordPress Commenter				</title>
+				Por: A WordPress Commenter				</title>
 				<link>https://clasesbateria-pinar.cf/2019/09/13/hello-world/#comment-1</link>
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Fri, 13 Sep 2019 14:44:02 +0000</pubDate>

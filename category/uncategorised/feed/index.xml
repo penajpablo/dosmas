@@ -11,14 +11,22 @@
 	<title>Uncategorised &#8211; ClasesBateriaPinar</title>
 	<atom:link href="https://clasesbateria-pinar.cf/category/uncategorised/feed/" rel="self" type="application/rss+xml" />
 	<link>https://clasesbateria-pinar.cf</link>
-	<description>Just another WordPress site</description>
+	<description>Ciudad de la Costa</description>
 	<lastBuildDate>Fri, 13 Sep 2019 14:44:02 +0000</lastBuildDate>
-	<language>en-GB</language>
+	<language>es</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.2.2</generator>
+
+<image>
+	<url>https://clasesbateria-pinar.cf/wp-content/uploads/2019/09/cropped-151730-32x32.png</url>
+	<title>Uncategorised &#8211; ClasesBateriaPinar</title>
+	<link>https://clasesbateria-pinar.cf</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Hello world!</title>
 		<link>https://clasesbateria-pinar.cf/2019/09/13/hello-world/</link>
