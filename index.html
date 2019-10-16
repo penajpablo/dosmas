@@ -274,7 +274,17 @@
 		}
 		section.hestia-contact .hestia-description h4{
 			font-size: 27px;
-		}}@media (min-width: 769px){
+		}}@media (min-width: 769px){ 
+			section.hestia-features h5.description,
+			section.hestia-shop h5.description,
+			section.hestia-work h5.description,
+			section.hestia-team h5.description,
+			section.hestia-testimonials h5.description,
+			section.hestia-subscribe h5.subscribe-description,
+			section.hestia-blogs h5.description,
+			section.hestia-contact h5.description{
+				font-size: 18px;
+			}}@media (min-width: 769px){
 		section.hestia-team p.card-description,
 		section.hestia-pricing p.text-gray,
 		section.hestia-testimonials p.card-description,
@@ -283,7 +293,7 @@
 		.hestia-contact p,
 		section.hestia-features .hestia-info p,
 		section.hestia-shop .card-description p{
-			font-size: 14px;
+			font-size: 16px;
 		}
 		section.hestia-shop h6.category,
 		section.hestia-work .label-primary,
@@ -292,7 +302,7 @@
 		section.hestia-testimonials h6.category,
 		section.hestia-blogs h6.category,
 		.section.related-posts h6.category{
-			font-size: 12px;
+			font-size: 14px;
 		}}
 
 		.page-template-builder-fullwidth-std .header > .elementor {
@@ -303,8 +313,16 @@
 <link rel='stylesheet' id='font-awesome-5-all-css'  href='https://clasesbateria-pinar.cf/wp-content/themes/hestia/assets/font-awesome/css/all.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='font-awesome-4-shim-css'  href='https://clasesbateria-pinar.cf/wp-content/themes/hestia/assets/font-awesome/css/v4-shims.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='hestia_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%7CRoboto+Slab%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='sib-front-css-css'  href='https://clasesbateria-pinar.cf/wp-content/plugins/mailin/css/mailin-front.css' type='text/css' media='all' />
 <script type='text/javascript' src='https://clasesbateria-pinar.cf/wp-includes/js/jquery/jquery.js'></script>
 <script type='text/javascript' src='https://clasesbateria-pinar.cf/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sibErrMsg = {"invalidMail":"Please fill out valid email address","requiredField":"Please fill out required fields","invalidDateFormat":"Please fill out valid date format","invalidSMSFormat":"Please fill out valid phone number"};
+var ajax_sib_front_object = {"ajax_url":"https:\/\/clasesbateria-pinar.cf\/wp-admin\/admin-ajax.php","ajax_nonce":"8b09d98c16","flag_url":"https:\/\/clasesbateria-pinar.cf\/wp-content\/plugins\/mailin\/img\/flags\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://clasesbateria-pinar.cf/wp-content/plugins/mailin/js/mailin-front.js'></script>
 <link rel='https://api.w.org/' href='https://clasesbateria-pinar.cf/wp-json/' />
 <link rel="canonical" href="https://clasesbateria-pinar.cf/" />
 <link rel='shortlink' href='https://clasesbateria-pinar.cf/' />
@@ -345,6 +363,8 @@ body.custom-background { background-color: #3a3a3a; }
 				</div>
 		<div id="main-navigation" class="collapse navbar-collapse"><ul id="menu-primary-menu" class="nav navbar-nav"><li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-12 active"><a title="Principal" href="https://clasesbateria-pinar.cf/">Principal</a></li>
 <li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a title="Precios" href="https://clasesbateria-pinar.cf/precio-y-politicas/">Precios</a></li>
+<li id="menu-item-116" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-116"><a title="Instagram" href="https://www.instagram.com/elpinar.drums/">Instagram</a></li>
+<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a title="Facebook" href="https://web.facebook.com/juanpablo.pena.5439">Facebook</a></li>
 </ul></div>			</div>
 					</nav>
 				</header>
@@ -358,16 +378,16 @@ body.custom-background { background-color: #3a3a3a; }
 				
 				<div class="container">
 										<div class="row hestia-big-title-content">
-								<div class="big-title-slider-content text-left col-md-7">
+								<div class="big-title-slider-content text-center col-sm-8 col-sm-offset-2">
 							<h1 class="hestia-title">Clases de Batería en El Pinar</h1>
 										<span class="sub-title">Pedí tu primera clase gratis!!</span>
 										<div class="buttons">
-					<a href="https://www.instagram.com/elpinar.drums/"
-							title="El Pinar Drums"
-							class="btn btn-primary"  target="_blank">El Pinar Drums</a>
+					<a href="https://clasesbateria-pinar.cf/precio-y-politicas/"
+							title="Ver Precios"
+							class="btn btn-primary" >Ver Precios</a>
 									</div>
 					</div>
-		<div class="big-title-sidebar-wrapper  col-md-5  hestia-slider-alignment-left"></div>					</div>
+							</div>
 									</div><!-- /.container -->
 
 				<div class="header-filter"
@@ -422,22 +442,20 @@ body.custom-background { background-color: #3a3a3a; }
 						<div class="container">
 									<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center hestia-team-title-area">
-							<h2 class="hestia-title">Sobre mí</h2>						</div>
+							<h2 class="hestia-title">Juan Pablo Peña</h2><h5 class="description">Baterista y estudiante de Traductorado en UdelaR con años de experiencia en el instrumento. Participó en el Antel Fest 2018, y parcicipa actualmente en diferentes eventos en ciudad de la costa y Montevideo.</h5>						</div>
 					</div>
 							<div class="hestia-team-content">
 				<div class="row">					<div class="col-xs-12 col-ms-6 col-sm-6">
 						<div class="card card-profile card-plain">
 							<div class="col-md-5">
 								<div class="card-image">
-									<a href="https://www.instagram.com/penajpablo/" target="_blank"><img class="img" src="https://clasesbateria-pinar.cf/wp-content/uploads/2019/09/23826010_2432363496989640_8598645344901667425_o-e1569257712620-300x195.jpg"  alt="Juan Pablo Peña"  title="Juan Pablo Peña" /></a>																	</div>
+									<img class="img" src="https://clasesbateria-pinar.cf/wp-content/uploads/2019/09/23826010_2432363496989640_8598645344901667425_o-e1569257712620-300x195.jpg"  alt="@penajpablo"  title="@penajpablo" />																	</div>
 							</div>
 							<div class="col-md-7">
 								<div class="content">
-                                    <a href="https://www.instagram.com/penajpablo/" target="_blank">																			<h4 class="card-title">Juan Pablo Peña</h4>
-																												<h6 class="category text-muted">Baterista</h6>
-																												<p class="card-description">Baterista y estudiante de Traductorado en UdelaR con años de experiencia en el instrumento. Participó en el Antel Fest 2018, y parcicipa actualmente en diferentes eventos en ciudad de la costa y Montevideo.<br /><br /><i class="fab fa-instagram"></i>            penajpablo</p>
-									                                    </a>																				<div class="footer">
-												<a href="https://www.instagram.com/penajpablo/" target="_blank" class="btn btn-just-icon btn-simple"><i class="fa fab fa-instagram"></i></a>											</div>
+                                    																			<h4 class="card-title">@penajpablo</h4>
+																											                                    																				<div class="footer">
+												<a href="https://www.instagram.com/penajpablo/" target="_blank" class="btn btn-just-icon btn-simple"><i class="fa fab fa-instagram"></i></a><a href="http://facebook/" class="btn btn-just-icon btn-simple"><i class="fa fab fa-facebook-f"></i></a>											</div>
 																			</div>
 							</div>
 						</div>
@@ -445,7 +463,7 @@ body.custom-background { background-color: #3a3a3a; }
 					</div>			</div>
 						</div>
 					</section>
-		        <section class="hestia-ribbon section section-image" id="ribbon" data-sorder="hestia_ribbon" style="background-image: url( https://clasesbateria-pinar.cf/wp-content/uploads/2019/09/drums-2599508_1920.jpg);">
+		        <section class="hestia-ribbon section section-image" id="ribbon" data-sorder="hestia_ribbon" style="background-image: url( https://clasesbateria-pinar.cf/wp-content/uploads/2019/09/2.jpg);">
 			            <div class="container">
                 <div class="row hestia-xs-text-center hestia-like-table hestia-ribbon-content">
 					                    <div class="col-md-8 hestia-ribbon-content-left" >
@@ -457,8 +475,35 @@ body.custom-background { background-color: #3a3a3a; }
                 </div>
             </div>
         </section>
+		        <section class="hestia-testimonials" id="testimonials" data-sorder="hestia_testimonials" >
+			            <div class="container">
+				                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center hestia-testimonials-title-area">
+							<h2 class="hestia-title">Seguinos en las redes</h2><h5 class="description">Conocé más sobre nosotros</h5>                        </div>
+                    </div>
+					        <div class="hestia-testimonials-content">
+		<div class="row">                <div class="col-xs-12 col-ms-6 col-sm-6 col-md-4">
+                    <div class="card card-testimonial card-plain" >
+						                            <div class="card-avatar">
+								<a href="https://www.instagram.com/elpinar.drums/" target="_blank"><img class="img" src="https://clasesbateria-pinar.cf/wp-content/uploads/2019/10/instagram-brands-300x157.png"  alt="@elpinar.drums"  title="@elpinar.drums" /></a>                            </div>
+						                        <div class="content">
+							                                <h4 class="card-title">@elpinar.drums</h4>
+																					                        </div>
+                    </div>
+                </div>
+				                <div class="col-xs-12 col-ms-6 col-sm-6 col-md-4">
+                    <div class="card card-testimonial card-plain" >
+						                            <div class="card-avatar">
+								<img class="img" src="https://clasesbateria-pinar.cf/wp-content/uploads/2019/10/facebook-brands-300x157.png" />                            </div>
+						                        <div class="content">
+																					                        </div>
+                    </div>
+                </div>
+				</div>        </div>
+		            </div>
+			        </section>
 				<section class="hestia-contact contactus section-image" id="contact"
-				data-sorder="hestia_contact" style="background-image: url(https://clasesbateria-pinar.cf/wp-content/uploads/2019/09/1-e1568936576847-1.jpg);">
+				data-sorder="hestia_contact" style="background-image: url(https://clasesbateria-pinar.cf/wp-content/uploads/2019/09/2.jpg);">
 						<div class="container">
 								<div class="row">
 					<div class="col-md-5 hestia-contact-title-area" >
@@ -469,10 +514,11 @@ body.custom-background { background-color: #3a3a3a; }
 					</section>
 							<footer class="footer footer-black footer-big">
 						<div class="container">
-																<div class="hestia-bottom-footer-content"><ul class="footer-menu pull-left"><li class="page_item page-item-6 current_page_item"><a href="https://clasesbateria-pinar.cf/" aria-current="page">Home</a></li>
-<li class="page_item page-item-62"><a href="https://clasesbateria-pinar.cf/precio-y-politicas/">Precios</a></li>
-</ul>
-		</div>			</div>
+																<div class="hestia-bottom-footer-content"><ul id="menu-primary-menu-1" class="footer-menu pull-left"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-12"><a href="https://clasesbateria-pinar.cf/" aria-current="page">Principal</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="https://clasesbateria-pinar.cf/precio-y-politicas/">Precios</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-116"><a href="https://www.instagram.com/elpinar.drums/">Instagram</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="https://web.facebook.com/juanpablo.pena.5439">Facebook</a></li>
+</ul>		</div>			</div>
 					</footer>
 				</div>
 	</div>
@@ -482,7 +528,7 @@ body.custom-background { background-color: #3a3a3a; }
 		document.body.className = c;
 	</script>
 			<script type="text/javascript">
-			var wc_product_block_data = JSON.parse( decodeURIComponent( '%7B%22min_columns%22%3A1%2C%22max_columns%22%3A6%2C%22default_columns%22%3A3%2C%22min_rows%22%3A1%2C%22max_rows%22%3A6%2C%22default_rows%22%3A1%2C%22thumbnail_size%22%3A230%2C%22placeholderImgSrc%22%3A%22http%3A%5C%2F%5C%2Flocalhost%5C%2Fdosmas%5C%2Fwp-content%5C%2Fuploads%5C%2Fwoocommerce-placeholder-230x350.png%22%2C%22min_height%22%3A500%2C%22default_height%22%3A500%2C%22isLargeCatalog%22%3Afalse%2C%22limitTags%22%3Afalse%2C%22hasTags%22%3Afalse%2C%22productCategories%22%3A%5B%7B%22term_id%22%3A16%2C%22name%22%3A%22Uncategorized%22%2C%22slug%22%3A%22uncategorized%22%2C%22term_group%22%3A0%2C%22term_taxonomy_id%22%3A16%2C%22taxonomy%22%3A%22product_cat%22%2C%22description%22%3A%22%22%2C%22parent%22%3A0%2C%22count%22%3A0%2C%22filter%22%3A%22raw%22%2C%22link%22%3A%22http%3A%5C%2F%5C%2Flocalhost%5C%2Fdosmas%5C%2Fproduct-category%5C%2Funcategorized%5C%2F%22%7D%5D%2C%22homeUrl%22%3A%22http%3A%5C%2F%5C%2Flocalhost%5C%2Fdosmas%5C%2F%22%7D' ) );
+			var wc_product_block_data = JSON.parse( decodeURIComponent( '%7B%22min_columns%22%3A1%2C%22max_columns%22%3A6%2C%22default_columns%22%3A3%2C%22min_rows%22%3A1%2C%22max_rows%22%3A6%2C%22default_rows%22%3A1%2C%22thumbnail_size%22%3A230%2C%22placeholderImgSrc%22%3A%22http%3A%5C%2F%5C%2Flocalhost%5C%2Fdosmas%5C%2Fwp-content%5C%2Fuploads%5C%2Fwoocommerce-placeholder-300x457.png%22%2C%22min_height%22%3A500%2C%22default_height%22%3A500%2C%22isLargeCatalog%22%3Afalse%2C%22limitTags%22%3Afalse%2C%22hasTags%22%3Afalse%2C%22productCategories%22%3A%5B%7B%22term_id%22%3A16%2C%22name%22%3A%22Uncategorized%22%2C%22slug%22%3A%22uncategorized%22%2C%22term_group%22%3A0%2C%22term_taxonomy_id%22%3A16%2C%22taxonomy%22%3A%22product_cat%22%2C%22description%22%3A%22%22%2C%22parent%22%3A0%2C%22count%22%3A0%2C%22filter%22%3A%22raw%22%2C%22link%22%3A%22http%3A%5C%2F%5C%2Flocalhost%5C%2Fdosmas%5C%2Fproduct-category%5C%2Funcategorized%5C%2F%22%7D%5D%2C%22homeUrl%22%3A%22http%3A%5C%2F%5C%2Flocalhost%5C%2Fdosmas%5C%2F%22%7D' ) );
 		</script>
 		<script type='text/javascript' src='https://clasesbateria-pinar.cf/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js'></script>
 <script type='text/javascript'>
